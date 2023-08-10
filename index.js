@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Import and use your routes
 app.use('/api', require('./routes'));
 
 app.listen(PORT, () => {

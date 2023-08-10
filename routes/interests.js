@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const userInterests = {}; // Replace with a proper data store
+const userInterests = {}; 
 
 router.post('/update', (req, res) => {
   const { username, interests } = req.body;

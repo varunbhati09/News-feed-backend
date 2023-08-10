@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// Mock recommended articles (replace with actual recommendations logic)
 const recommendedArticles = {
   user1: [
     { id: 1, title: 'Recommended Article 1', description: 'Description 1' },

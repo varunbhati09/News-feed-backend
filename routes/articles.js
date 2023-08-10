@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const savedArticles = {}; // Replace with a proper data store
+const savedArticles = {}; 
 
 router.post('/save', (req, res) => {
   const { username, article } = req.body;

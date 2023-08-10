@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// In-memory user database (replace with a real database)
 const users = [];
 
 router.post('/register', (req, res) => {
